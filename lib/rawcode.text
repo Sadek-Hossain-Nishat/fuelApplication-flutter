@@ -1,0 +1,14 @@
+ElevatedButton(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all(Colors.white),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(5.0),
+            child: Icon(
+              Icons.settings,
+              size: 38,
+              color: Colors.black,
+            ),
+          ),
+          onPressed: () => _key.currentState?.openDrawer(),
+        ),
